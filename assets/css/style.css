@@ -1050,6 +1050,10 @@ a {
         grid-template-columns: 1fr;
     }
 
+    .contact__content span {
+        font-size: 4rem;
+    }
+
     .footer_btn {
         padding-inline: 0.4rem;
     }
