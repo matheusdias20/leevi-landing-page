@@ -751,7 +751,7 @@ a {
     border-bottom: 1px solid var(--black-color-regular);
 }
 
-.footer_btn {
+.footer__item .footer_btn {
     font-weight: 900;
     font-size: 1.2rem;
     line-height: 120%;
@@ -770,6 +770,7 @@ a {
 
 .footer__copy {
     margin-top: 6.4rem;
+    margin-bottom: 3.2rem;
 }
 
 .footer__copy span {
@@ -869,7 +870,7 @@ a {
 
     .nav__menu {
         position: fixed;
-        top: 9vh;
+        top: 7vh;
         right: 0;
         width: 50vw;
         height: 92vh;
@@ -905,7 +906,7 @@ a {
 
         padding-block: 1.6rem;
 
-        width: 100vw;
+        width: 102vw;
         z-index: 1000;
     }
 
@@ -940,6 +941,7 @@ a {
     .home__image span {
         font-size: 1.2rem;
         padding-inline: 2.4rem;
+        padding-block: 1.2rem;
     }
 
     .home__company {
@@ -977,6 +979,10 @@ a {
     .testimonials__list,
     .contact__content {
         flex-direction: column;
+    }
+
+    .testimonials__image img {
+        width: 100%;
     }
 
     .testimonials__item {
@@ -1065,6 +1071,7 @@ a {
 
     .footer__navbar {
         flex-direction: column;
+        gap: 4rem;
     }
 }
 
@@ -1085,6 +1092,22 @@ a {
     .contact__text a {
         font-size: 1.2rem;
         padding: 1.6rem 2.4rem;
+    }
+
+    .awards__item p {
+        font-size: 1.8rem;
+    }
+
+    .create__list .create__contact p {
+        font-size: 3.2rem;
+    }
+
+    .contact__image {
+        margin-bottom: 3rem;
+    }
+
+    .contact__text span, .create__contact p {
+        font-size: 3rem;
     }
 }
 
